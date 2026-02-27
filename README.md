@@ -42,24 +42,6 @@ Communication between components is implemented using Go’s **net/rpc** package
 
 ---
 
-## Project Structure
-
-```
-mapreduce/
- ├── master.go              # Master coordination logic
- ├── worker.go              # Worker execution logic
- ├── schedule.go            # Task scheduling implementation
- ├── map_reduce.go          # MapReduce orchestration
- ├── common_rpc.go          # RPC definitions
- ├── master_splitmerge.go   # Output merging
- └── mr_test.go             # Framework tests
-
-cmd/wordcount/
- └── word_count.go          # Example MapReduce application
-```
-
----
-
 ## Example Application
 
 The included **Word Count** program demonstrates how users can define custom:
