@@ -1,5 +1,4 @@
 # Distributed MapReduce Framework in Go
-
 ## Overview
 
 This project implements a simplified distributed **MapReduce framework** in Go. The system coordinates a master node and multiple worker nodes to execute parallel data processing tasks using the MapReduce programming model.
